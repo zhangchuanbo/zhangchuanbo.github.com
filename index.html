@@ -1213,7 +1213,7 @@
 		downPdf.onclick = function() {
 			downPdf.style.display='none';
 			var target = document.querySelector('.content');
-			let minW = ';'
+			// let minW = ';'
 // 			if(target.clientWidth<=widthArr[0]){
 // 				minW = widthArr[0]+'px'
 // 			}else if(target.clientWidth>widthArr[0]&&target.clientWidth<=widthArr[1]){
@@ -1222,7 +1222,9 @@
 // 				minW = widthArr[2]+'px'
 // 			}
 // 			target.style.minWidth = minW;
-			document.body.style.width = '1200px'
+			if(document.body.clientWidth<=1024){
+				document.body.style.width = '1200px'
+			}
 			html2canvas(target, {
 				onrendered: function(canvas) {
 					var contentWidth = canvas.width;
