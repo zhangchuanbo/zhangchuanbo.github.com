@@ -13,7 +13,7 @@ dns:
     name server:  [1.2.4.8, 223.5.5.5]
     fallback: ['tls://1.0.0.1:853', 'tls://dns.google:853']
 proxies:
-    - { name: '日本-TY1-1,流量倍率:1.00', type: trojan, server: ty1-1.sstr-api.xyz, port: 443, password  2Kamm4HEMHTaTR2gtQ }
+    - { name: '日本-TY1-1,流量倍率:1.00', type: trojan, server: ty1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ }
     - { name: '日本-TY1-2,流量倍率:1.00', type: trojan, server: ty1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ }
     - { name: "澳大利亚-AU1-1,流量倍率:1.00", type: trojan, server: au1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
     - { name: "澳大利亚-AU1-2,流量倍率:1.00", type: trojan, server: au1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
