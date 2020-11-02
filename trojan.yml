@@ -10,13 +10,68 @@ dns:
     enable: true
     ipv6: false
     enhanced-mode: redir-host
-    nameserver: [1.2.4.8, 223.5.5.5]
+    name server:  [1.2.4.8, 223.5.5.5]
     fallback: ['tls://1.0.0.1:853', 'tls://dns.google:853']
 proxies:
-    - { name: '日本-TY1-1,流量倍率:1.00', type: trojan, server: ty1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ }
+    - { name: '日本-TY1-1,流量倍率:1.00', type: trojan, server: ty1-1.sstr-api.xyz, port: 443, password  2Kamm4HEMHTaTR2gtQ }
     - { name: '日本-TY1-2,流量倍率:1.00', type: trojan, server: ty1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ }
+    - { name: "澳大利亚-AU1-1,流量倍率:1.00", type: trojan, server: au1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "澳大利亚-AU1-2,流量倍率:1.00", type: trojan, server: au1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "澳大利亚-AU1-3,流量倍率:1.00", type: trojan, server: au1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "澳大利亚-AU1-4,流量倍率:1.00", type: trojan, server: au1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "德国-DE1-1,流量倍率:1.00", type: trojan, server: de1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "德国-DE1-2,流量倍率:1.00", type: trojan, server: de1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "德国-DE1-3,流量倍率:1.00", type: trojan, server: de1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "德国-DE1-4,流量倍率:1.00", type: trojan, server: de1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "爱沙尼亚-EE1-1,流量倍率:0.10", type: trojan, server: ee1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "爱沙尼亚-EE1-2,流量倍率:0.10", type: trojan, server: ee1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "爱沙尼亚-EE1-3,流量倍率:0.10", type: trojan, server: ee1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "爱沙尼亚-EE1-4,流量倍率:0.10", type: trojan, server: ee1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-FM1-1,流量倍率:1.00", type: trojan, server: fm1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-FM1-2,流量倍率:1.00", type: trojan, server: fm1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-FM1-3,流量倍率:1.00", type: trojan, server: fm1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-FM1-4,流量倍率:1.00", type: trojan, server: fm1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-FM2-1,流量倍率:0.10", type: trojan, server: fm2-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-FM2-2,流量倍率:0.10", type: trojan, server: fm2-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-FM2-3,流量倍率:0.10", type: trojan, server: fm2-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-FM2-4,流量倍率:0.10", type: trojan, server: fm2-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "香港-HK1-1,流量倍率:0.50", type: trojan, server: hk1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "香港-HK1-2,流量倍率:0.50", type: trojan, server: hk1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "香港-HK1-3,流量倍率:0.50", type: trojan, server: hk1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "香港-HK1-4,流量倍率:0.50", type: trojan, server: hk1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "台湾-TW1-1,流量倍率:0.50", type: trojan, server: tw1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "台湾-TW1-2,流量倍率:0.50", type: trojan, server: tw1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "台湾-TW1-3,流量倍率:0.50", type: trojan, server: tw1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "台湾-TW1-4,流量倍率:0.50", type: trojan, server: tw1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-TY1-1,流量倍率:1.00", type: trojan, server: ty1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-TY1-2,流量倍率:1.00", type: trojan, server: ty1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-TY1-3,流量倍率:1.00", type: trojan, server: ty1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-TY1-4,流量倍率:1.00", type: trojan, server: ty1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-TY2-1,流量倍率:1.00", type: trojan, server: ty2-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-TY2-2,流量倍率:1.00", type: trojan, server: ty2-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-TY2-3,流量倍率:1.00", type: trojan, server: ty2-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-TY2-4,流量倍率:1.00", type: trojan, server: ty2-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-OS1-1,流量倍率:1.00", type: trojan, server: os1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-OS1-2,流量倍率:1.00", type: trojan, server: os1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-OS1-3,流量倍率:1.00", type: trojan, server: os1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-OS1-4,流量倍率:1.00", type: trojan, server: os1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-OS1-5,流量倍率:1.00", type: trojan, server: os1-5.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-OS1-6,流量倍率:1.00", type: trojan, server: os1-6.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-OS1-7,流量倍率:1.00", type: trojan, server: os1-7.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-OS1-8,流量倍率:1.00", type: trojan, server: os1-8.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "荷兰-NL1-1,流量倍率:1.00", type: trojan, server: nl1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "荷兰-NL1-2,流量倍率:1.00", type: trojan, server: nl1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "荷兰-NL1-3,流量倍率:1.00", type: trojan, server: nl1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "荷兰-NL1-4,流量倍率:1.00", type: trojan, server: nl1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "英国-UK1-1,流量倍率:1.00", type: trojan, server: uk1-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "英国-UK1-2,流量倍率:1.00", type: trojan, server: uk1-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "英国-UK1-3,流量倍率:1.00", type: trojan, server: uk1-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "英国-UK1-4,流量倍率:1.00", type: trojan, server: uk1-4.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "美国-V6-1,流量倍率:0.10", type: trojan, server: v6-1.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-V6-2,流量倍率:1.00", type: trojan, server: v6-2.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
+    - { name: "日本-V6-3,流量倍率:1.00", type: trojan, server: v6-3.sstr-api.xyz, port: 443, password: 2Kamm4HEMHTaTR2gtQ}
 proxy-groups:
-- { name: 自动选择, type: select, proxies: ['日本-TY1-1,流量倍率:1.00','日本-TY1-2,流量倍率:1.00'] }
+- { name: 自动选择,  type:  select, proxies: ["澳大利亚-AU1-1,流量倍率:1.00", "澳大利亚-AU1-2,流量倍率:1.00", "澳大利亚-AU1-3,流量倍率:1.00", "澳大利亚-AU1-4,流量倍率:1.00", "德国-DE1-1,流量倍率:1.00", "德国-DE1-2,流量倍率:1.00", "德国-DE1-3,流量倍率:1.00", "德国-DE1-4,流量倍率:1.00", "爱沙尼亚-EE1-1,流量倍率:0.10", "爱沙尼亚-EE1-2,流量倍率:0.10", "爱沙尼亚-EE1-3,流量倍率:0.10", "爱沙尼亚-EE1-4,流量倍率:0.10", "美国-FM1-1,流量倍率:1.00", "美国-FM1-2,流量倍率:1.00", "美国-FM1-3,流量倍率:1.00", "美国-FM1-4,流量倍率:1.00", "美国-FM2-1,流量倍率:0.10", "美国-FM2-2,流量倍率:0.10", "美国-FM2-3,流量倍率:0.10", "美国-FM2-4,流量倍率:0.10", "香港-HK1-1,流量倍率:0.50", "香港-HK1-2,流量倍率:0.50", "香港-HK1-3,流量倍率:0.50", "香港-HK1-4,流量倍率:0.50", "台湾-TW1-1,流量倍率:0.50", "台湾-TW1-2,流量倍率:0.50", "台湾-TW1-3,流量倍率:0.50", "台湾-TW1-4,流量倍率:0.50", "日本-TY1-1,流量倍率:1.00", "日本-TY1-2,流量倍率:1.00", "日本-TY1-3,流量倍率:1.00", "日本-TY1-4,流量倍率:1.00", "日本-TY2-1,流量倍率:1.00", "日本-TY2-2,流量倍率:1.00", "日本-TY2-3,流量倍率:1.00", "日本-TY2-4,流量倍率:1.00", "日本-OS1-1,流量倍率:1.00", "日本-OS1-2,流量倍率:1.00", "日本-OS1-3,流量倍率:1.00", "日本-OS1-4,流量倍率:1.00", "日本-OS1-5,流量倍率:1.00", "日本-OS1-6,流量倍率:1.00", "日本-OS1-7,流量倍率:1.00", "日本-OS1-8,流量倍率:1.00", "荷兰-NL1-1,流量倍率:1.00", "荷兰-NL1-2,流量倍率:1.00", "荷兰-NL1-3,流量倍率:1.00", "荷兰-NL1-4,流量倍率:1.00", "英国-UK1-1,流量倍率:1.00", "英国-UK1-2,流量倍率:1.00", "英国-UK1-3,流量倍率:1.00", "英国-UK1-4,流量倍率:1.00", "美国-V6-1,流量倍率:0.10", "日本-V6-2,流量倍率:1.00", "日本-V6-3,流量倍率:1.00"] }
 rules:
     - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
     - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
