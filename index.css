@@ -195,7 +195,7 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: #eee;
-  padding-top: 5px;
+  /* padding-top: 5px; */
   overflow: auto
 }
 
@@ -242,7 +242,8 @@ a {
 .content {
   position: relative;
   width: 1024px;
-  margin: 50px auto 30px;
+  margin: 30px auto;
+  /* margin-top: 0; */
   background-color: #fff;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 15px silver;
